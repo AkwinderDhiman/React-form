@@ -5,13 +5,13 @@ import SignUp from "./Components/SignUp/SignUp.jsx";
 function App() {
   return (
     <>
-       <Header />
+      <Header />
       <main>
-        {/* <Login /> */}
-        <SignUp/>
+        <Login />
+        {/* <SignUp /> */}
       </main>
     </>
-  )
+  );
 }
 
 export default App;
